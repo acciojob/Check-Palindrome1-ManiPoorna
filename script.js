@@ -8,7 +8,7 @@ function palindrome(str){
 		}
 	}
 	let start = 0, end = str.length-1;
-	while(start < right){
+	while(start < end){
 		if(ans.charAt(start) !== ans.charAt(end)){
 			return false;
 		}
